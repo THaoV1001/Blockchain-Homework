@@ -1,0 +1,19 @@
+Node1 Password: 123
+Public Address: 0xffD8a8B2320EbD24FD132f5b72514e5E5DBcAC19
+
+./geth --datadir node1 --unlock "0xffD8a8B2320EbD24FD132f5b72514e5E5DBcAC19" --mine --rpc --allow-insecure-unlock
+
+enode://549077619421a55d9eda1ba76715ae9c6d03ab651a384f9ce0e93fdd8ef23e6f6807d9b5f7b11416a82e2f2d2b22598152c544fe731fb4f93885a29d0a6d6754@127.0.0.1:30303
+
+
+Node2 Password: 234
+Public Address: 0x4E0c299cD5F3cE8ee95d5484d130afa20Af60995
+
+./geth --datadir node2 --unlock "0x4E0c299cD5F3cE8ee95d5484d130afa20Af60995" --mine --port 30304 --bootnodes "enode://549077619421a55d9eda1ba76715ae9c6d03ab651a384f9ce0e93fdd8ef23e6f6807d9b5f7b11416a82e2f2d2b22598152c544fe731fb4f93885a29d0a6d6754@127.0.0.1:30303" --ipcdisable --allow-insecure-unlock
+
+
+
+
+Genesis Block Chain ID: 333
+
+
